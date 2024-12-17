@@ -1,0 +1,31 @@
+name: smart_scribbles
+description: A fun learning app for children to practice alphabets and digits
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  flutter_svg: ^2.0.7
+  path_drawing: ^1.0.1
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/templates/
